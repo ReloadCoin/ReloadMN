@@ -75,6 +75,7 @@ echo "masternodeaddr$IP" >> ~/.rld/rld.conf
 echo "masternodeprivkey=$KEY" >> ~/.rld/rld.conf
 echo -e "${GREEN}STARTING THE DAEMON${NC}"
 
+
 sudo rldd -daemon
 sleep 2
 echo ""
