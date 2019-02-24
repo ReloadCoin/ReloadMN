@@ -61,7 +61,7 @@ sleep 2
 echo "rpcuser="`shuf -i 100000-10000000 -n 1` >> ~/.rld/rld.conf
 echo "rpcpassword="`shuf -i 100000-10000000 -n 1` >> ~/.rld/rld.conf
 echo "rpcallowip=127.0.0.1" >> ~/.rld/rld.conf
-echo "port=24422" >> ~/.rld/rld.conf
+echo "port=24400" >> ~/.rld/rld.conf
 echo "staking=1" >> ~/.rld/rld.conf
 echo "logtimestamps=1" >> ~/.rld/rld.conf
 echo "listen=1" >> ~/.rld/rld.conf
@@ -69,6 +69,8 @@ echo "server=1" >> ~/.rld/rld.conf
 echo "daemon=1" >> ~/.rld/rld.conf
 echo "addnode=seed1.reloadcoin.io" >> ~/.rld/rld.conf
 echo "addnode=seed2.reloadcoin.io" >> ~/.rld/rld.conf
+echo "addnode=seed3.reloadcoin.io" >> ~/.rld/rld.conf
+echo "addnode=seed4.reloadcoin.io" >> ~/.rld/rld.conf
 echo "maxconnections=250" >> ~/.rld/rld.conf
 echo "masternode=1" >> ~/.rld/rld.conf
 echo "masternodeaddr$IP" >> ~/.rld/rld.conf
