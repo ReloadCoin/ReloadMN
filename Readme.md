@@ -27,10 +27,11 @@ After the MN is up and running, you need to configure the desktop wallet accordi
 Alias Address:24400 Genkey TxHash TxIndex
 ```
 *Alias: MN1 <br>
-*Address: VPS_IP:24400
-*Privkey: Value from setp 6
-*TxHash: First value from Step 7
-*TxIndex: Second value from Step 7</li>
+*Address: VPS_IP:24400 <br>
+*Privkey: Value from setp 6 <br>
+*TxHash: First value from Step 7 <br>
+*TxIndex: Second value from Step 7 <br>
+</li>
 <li>Save and close the file.</li>
 <li>Restart the wallet</li>
 <li>Go to Masternode Tab. If you tab is not shown, please enable it from: Settings - Options - Wallet - Show Masternodes Tab</li>
