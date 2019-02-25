@@ -28,7 +28,7 @@ Alias Address:24400 Genkey TxHash TxIndex
 ```
 *Alias: MN1 <br>
 *Address: VPS_IP:24400 <br>
-*Privkey: Value from setp 6 <br>
+*Privkey: Value from step 6 <br>
 *TxHash: First value from Step 7 <br>
 *TxIndex: Second value from Step 7 <br>
 </li>
