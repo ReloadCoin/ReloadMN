@@ -24,9 +24,9 @@ After the MN is up and running, you need to configure the desktop wallet accordi
   <li>Add the following entry:
 
 ```
-Alias Address Genkey TxHash TxIndex
+Alias Address:24400 Genkey TxHash TxIndex
 ```
-*Alias: MN1
+*Alias: MN1 <br>
 *Address: VPS_IP:24400
 *Privkey: Value from setp 6
 *TxHash: First value from Step 7
