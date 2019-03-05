@@ -2,7 +2,7 @@
 Shell script to install a RLD Masternode on a Linux server running Ubuntu 16.04. This script was tested on a fresh install of Ubuntu 16.04 <a href="https://www.vultr.com/?ref=7424117">Vultr VPS</a>. Please use at your own risk.
 ***
 
-## Installation for version v3.0.0.0-854a6e5 (TestNet)
+## Installation for v3.1.1.1-ebaee07
 Copy & paste the command below to your VPS to start the installation process.
 ```
 cd && sudo apt-get update -y && sudo apt-get install p7zip-full -y && sudo apt-get -y install git && sudo git clone https://github.com/ReloadCoin/ReloadMN && cd ReloadMN/ && sudo bash RLD-instal.sh
@@ -53,16 +53,10 @@ rld-cli mnsync status     #To check the sync status of the masternode
 rld-cli masternode status #To check the status of the masternodes   
 rld-cli getinfo           #To get information about RLD client 
 ```
-Also, if you want to check/start/stop rld, run one of the following commands as root:
-```
-systemctl status rld.service      #To check if RLD service is running  
-systemctl start rld.service       #To start RLD service  
-systemctl stop rld.service        #To stop RLD service  
-systemctl is-enabled rld.service  #To check if RLD service is enabled on boot  
-```
+
 ***
 
 ## Donations
 BTC: 33pfqTNHABWJm1UkUutjqnCZFcUj9obrrg<br>
-RLD: rAm9BDjWDLwup2DJ88oqMrRgWXBpghqree
+RLD: RCe3RpAHAacyfQzAaPTXyhqkY2oErdVwrY
 
