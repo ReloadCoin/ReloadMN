@@ -1,8 +1,0 @@
-COIN_NAME="blastx"
-COIN_PATH="/usr/local/bin/"
-COIN_DAEMON="blastxd"
-COIN_CLI="blastx-cli"
-COIN_FOLDER="/root/.blastxcore"
-COIN_CONFIG="blastx.conf"
-RPC_PORT=30009
-COIN_SERVICE="blastx.service"
